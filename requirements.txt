@@ -1,0 +1,7 @@
+Pillow
+sphinx
+sphinx-autobuild
+myst-parser
+sphinx-rtd-theme
+esbonio
+rstcheck
