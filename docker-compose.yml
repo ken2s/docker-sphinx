@@ -3,6 +3,7 @@ services:
   sphinx:
     restart: always
     build: .
+    image: sphinx:20221221
     container_name: 'sphinx'
     tty: true
     volumes:
