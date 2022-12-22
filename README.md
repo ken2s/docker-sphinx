@@ -12,5 +12,5 @@ docker run -it -v $(pwd)/sphinx:/sphinx -e LOCAL_UID=$(id -u $USER) -e LOCAL_GID
 ```
 
 ```bash
-docker run -it -v $(pwd)/sphinx:/sphinx -e LOCAL_UID=$(id -u $USER) -e LOCAL_GID=$(id -g $USER) sphinx:20221221 sphinx-quickstart
+docker run -it -v $(pwd)/sphinx:/sphinx -e LOCAL_UID=$(id -u $USER) -e LOCAL_GID=$(id -g $USER) sphinx:20221221 make html
 ```
